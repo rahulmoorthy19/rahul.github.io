@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+			.video-container {
+				display: flex;
+				align-items: center;
+			}
+	
+			video {
+				margin-right: 20px; /* Adjust the margin as needed */
+			}
+		</style>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Projects</strong></a>
+									<ul class="icons">
+										<li><a href="https://github.com/rahulmoorthy19" class="fab fa-github github-icon"><span class="label"></span></a></li>
+										<li><a href="https://www.linkedin.com/in/rahul-moorthy-6b2b4015a/" class="fab fa-linkedin"><span class="label"></span></a></li>
+										<a href="https://scholar.google.com/citations?user=aj9y-r8AAAAJ&hl=en" target="_blank" title="Google Scholar Profile">
+											Google Scholar
+										</a>
+									</ul>
+								</header>
+								</header>
+
+							<!-- Content -->
+								<section>
+
+									<h2>GPS Driven Path Navigation</h2>
+									<div class="video-container">
+										<iframe width="320" height="240" src="https://www.youtube.com/embed/h5DQuURN0iQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+										
+										<p>
+											This project was centered around enhancing the autonomous navigation capabilities of a differential drive rover. The comprehensive process involved integrating the rover with Swiftnav RTK GPS, path tracing, and developing a navigation stack for autonomous movement utilizing a single GPS. Additionally, a "fly-by-wire" system was implemented to ensure human override safety control in situations where significant deviation from the intended path is detected. This comprehensive approach aims to achieve robust and safe autonomous navigation for the rover.</p>
+									</div>
+									<hr class="major" />
+									<h2>Monocular Depth Estimation for Field Robots</h2>
+									<div class="video-container">
+										
+										<iframe width="320" height="240" src="https://www.youtube.com/embed/G9dKHeWHOMk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+										<p>This project focused on developing a real-time TensorRT engine for accurate monocular depth estimation by enhancing the FastDepth architecture through knowledge distillation. The modification achieved a remarkable reduction in inference time from 1.2 seconds to an impressive 0.01 seconds, maintaining an error margin of only 10cm compared to the original paper. The model was tested on the NYUv2 Dataset.</p>
+									</div>
+
+									<hr class="major" />
+
+									<h2>Landmark Based Navigation and Localization for Mobile Robots</h2>
+									<div class="video-container">
+										<iframe width="320" height="240" src="https://www.youtube.com/embed/vYJ7fZJ7WOQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+										</iframe>
+										<p>This project focused on implementing an Extended Kalman Filter (EKF) State Estimation and Bug2 Navigation algorithm to localize a differential drive robot in an unknown environment given global landmark locations. The developed framework was able to achieve accurate goal location navigation by avoiding obstacles using the Bug2 Algorithm on the Webots Warehouse Environment.</p>
+									</div>
+
+									<hr class="major" />
+
+									<h2>Autonomous Planning for Point Robots</h2>
+								
+									<div class="video-container">
+										<img src="images/Map_1.png" alt="Project Image" style="width: 300px; height: auto;">
+										<p>This project focused on implementing an innovative Voronoi Graph-based Planning Algorithm to effectively navigate a robot from one location to another, utilizing an occupancy grid map. The algorithm demonstrated a remarkable 3x improvement in path cost when compared to the original Voronoi planner implementation.</p>
+									
+									</div>
+
+									<hr class="major" />
+
+									<h2>Sample Efficient Behavioural Learning</h2>
+									<div class="video-container">
+										<img src="videos/bitflip.gif" alt="Animated GIF" style="width: 300px; height: auto;">
+										<p>Developed a Curiosity-driven goal selection algorithm for the Hindsight Experience Replay (HER) approach to achieve Sample Efficient Behavioral Learning on the BitFlip control task within the OpenAI environment. Successfully increased sample efficiency by 50%.</p>
+									</div>
+									<hr class="major" />
+									<h2>Graph networks for Melanoma detection using skin lesion images</h2>
+									<div class="video-container">
+										<img src="images/Architecture_diagram.png" alt="Project Image" style="width: 300px; height: auto;">
+										<p>This project was focused on developing a novel feature extraction technique by extracting color, shape, and graph-embedding features for detecting Melanoma disease from skin lesion images. Achieved state-of-the-art 0.91 weighted F1-score on the ISIC-2018 melanoma detection dataset. It recieved positive reviews from the CVPR DSC review commitee.
+										</p>
+									
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<div id="sidebar">
+					<div class="inner">
+						<!-- Menu -->
+							<nav id="menu">
+								<header class="major">
+									<h2>Menu</h2>
+								</header>
+								<ul>
+									<li><a href="index.html">Homepage</a></li>
+									<li><a href="projects.html">Projects</a></li>
+									<li><a href="publications.html">Publications</a></li>
+								</ul>
+							</nav>
+
+						<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Get in touch</h2>
+								</header>
+								<ul class="contact">
+									<li class="icon solid fa-envelope"><a href="#">mahes092@umn.edu</a></li>
+									<li class="icon solid fa-phone">(612)-986-7044</li>
+								</ul>
+							</section>
+					</div>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
